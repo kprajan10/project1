@@ -1,0 +1,461 @@
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+	 body{
+            margin: 0;
+        }
+   
+        .hi{
+width:100%;
+height:40px;
+background-color:lightblue;
+display:flex;
+}
+.ji {
+width:35%;
+}
+.ji h2{
+    font-size: 30px;
+	padding: 10px;
+	font-family: auto;
+    text-align: center;
+    font-weight: 700;
+    line-height: 15px;
+    color: red;
+    padding-top: 10px;
+    margin: 0;
+}
+.ap ul{
+	list-style:none;
+	
+    padding:5px;
+    padding-top:11px;
+    margin: 0;
+    
+	
+}
+.ap a{
+    color: #337ab7;
+
+}
+.ap ul li{
+	display:inline;
+	margin-left:20px;
+	margin-right:20px;
+	padding:5px;
+	padding-top: 10px;
+	font-size:18px;
+	font-style:normal;
+	font-family: serif;
+	font-weight:700;
+	line-height:15px;
+	text-indent:40px;
+	padding-bottom: 10px;
+	}
+.ap ul li a{
+	text-decoration:none;
+    padding: 5px;
+    border-radius: 10px;
+}
+.ap ul li a:hover{
+	padding: 5px;
+    border-radius: 10px;
+    background-color: blueviolet;
+	}
+
+ h1{
+color:red;
+font-size:25px;
+text-align:center;
+margin: 0;
+padding-top: 10px;
+}
+.s ul{
+	list-style: none;
+	padding: 5px;
+	padding-top: 10px;
+}
+.s ul li{
+	display: inline;
+}
+.s ul li a{
+	text-decoration: none;
+	color: aliceblue;
+	}
+.s ul li a:hover{
+	color: red;
+
+}
+.qu{
+	width:50%;
+	//background-color:lightpink;
+	height:45%;
+	margin-left: 25%;
+	
+	
+}
+.ta button{
+	color:rgb(238, 86, 30);
+	padding: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin-top: 10px;
+	background-color: blanchedalmond;
+	border: 4px solid green;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.ta button:hover{
+	color:rgb(188, 223, 31);
+}
+
+
+.ta{
+	width: 60%;
+	height: 60px;
+	margin-left: auto;
+	margin-right: 60px;
+	font-size: 20px;
+	line-height: 25px;
+	font-style: italic;
+	padding-top: 20px;
+	font-weight: 600;
+	color: black;
+}
+.ty ul{
+	list-style:none;
+	}
+.ty li a{
+text-decoration:none;
+color: #92ff28;
+}
+.ty li a:hover{
+color:red;
+}
+.ty h3{
+	color: violet;
+} 
+.qq ul{
+	list-style:none;
+	color:chartreuse;
+	}
+.qq li a{
+text-decoration:none;
+color: #92ff28;
+font-family:initial;
+}
+.qq h3{
+	color: crimson;
+}
+.gt{
+	width: :100%;
+	background-color:gray;
+	margin-:25px;
+	
+	
+	
+	}
+.ba{
+color:rgb(30, 218, 70);
+}
+.ba h3{
+	color: chartreuse;
+}
+.tin{
+	text-align: center;
+	color: blue;
+	font-weight: 700;
+}
+.pan{
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	color:red;
+	height:50px;
+	text-indent: 0ex;
+	margin-bottom:0px;
+	line-height: 40px;
+	font-weight: 900;
+	font-size: 35px;
+	margin-top: 170px;
+	background-color:white;
+	border: 6px solid blue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border-style:double;
+	}
+	.di {
+		width: 40erpx;
+		padding: 10px;
+		padding-bottom: 5px;
+		padding-left: 50px;
+		margin-top:160px;
+		}
+
+  
+
+	.image{
+		width: 100%;
+		height: 70%;
+		background-image: url("https://www.unbeatablemortgages.ca/wp-content/uploads/2017/09/mortgage-calculator-background.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		margin: 0;		
+	}
+	.ta input{
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block; 
+  border: 4px solid red;
+  border-radius: 2px;
+  box-sizing: border-box;
+  }
+  
+.hq{
+	position: relative;
+}
+.hq::before{
+	content: "";
+	width: 30%;
+	position: absolute;
+	height: 5px;
+	background-color: black;
+
+	transform: scale(0);
+	transform-origin: left;
+	transition: transform 3s ease;
+	margin-top: 40px;
+	margin-left:250px;
+}
+.hq:hover::before{
+	transform: scale(1);
+	transform-origin: left;
+}
+.gt{
+	position: relative;
+}
+.gt::before{
+	content: "";
+	width: 10%;
+	position: absolute;
+	height: 5px;
+	background-color:red;
+
+	transform: scale(0);
+	transform-origin: left;
+	transition: transform 3s ease;
+	margin-top: 45px;
+	margin-left:220px;
+	margin-right: 15px;
+}
+.gt:hover::before{
+	transform: scale(1);
+	transform-origin: left;
+}
+.ty{
+	position: relative;
+}
+.ty::before{
+	content: "";
+	width: 18%;
+	position: absolute;
+	height: 5px;
+	background-color:blue;
+
+	transform: scale(0);
+	transform-origin: left;
+	transition: transform 3s ease;
+	margin-top: 25px;
+	margin-left:-10px;
+}
+.ty:hover::before{
+	transform: scale(1);
+	transform-origin: left;
+}
+.qq{
+	position: relative;
+}
+.qq::before{
+	content: "";
+	width: 55%;
+	position: absolute;
+	height: 5px;
+	background-color:rgb(30, 218, 70);
+
+	transform: scale(0);
+	transform-origin: left;
+	transition: transform 3s ease;
+	margin-top: 25px;
+	margin-left:-75px;
+}
+.qq:hover::before{
+	transform: scale(1);
+	transform-origin: left;
+}
+</style>
+
+</head>
+<body>
+<div class="hi">
+			<div class="ji">
+				<h2>PROJECT</h2>
+				</div>
+				<div class="ap">
+				<ul>
+					<li><a href="newpro.html">CALCULATE</a></li>
+					<li><a href="marksheet.html">MARKSHEET</a></li>
+					<li><a href="calculation.html">CALCULATION</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="service.html">SERVICE</a></li>
+				</ul>
+				</div>
+				</div>
+<div class="image">
+<div class="qu">
+		
+		<div class="hq">
+		<h1>CALCULATER</h1>
+		</div>
+		
+		
+		<div class="ta">
+			
+		Enter The Value a:
+		<input type="number" id="a" placeholder="enter a number">
+		<br>
+		<br>
+		
+		Enter The Value b:
+		<input type="number" id="b" placeholder="enter b number">
+		<br>
+		<br>
+		<div class="btn-group">
+		<button onclick="add()"button type="button" class="btn btn-primary btn-md">ADD</button>
+		<button onclick="sub()"button type="button" class="btn btn-info btn-md">SUB</button>
+		<button onclick="mul()"button type="button" class="btn btn-danger btn-md">MUL</button>
+		<button onclick="div()"button type="button" class="btn btn-warning btn-md">DIV</button>
+		<button onclick="clr()"button type="button" class="btn btn-success btn-md">CLR</button>
+		</div>
+		
+		
+		   </div>
+		   
+		  
+		</div>
+		<div class="pan">
+				<p id="display"</p>
+				</div>
+</div>
+		<script>
+			   function add(){
+					var a=Number(document.getElementById('a').value);
+				var b=Number(document.getElementById('b').value);
+				var disp=document.getElementById('display');
+					var  c=a+b;
+					disp.innerHTML=c;
+				}
+				function sub(){
+					var a=Number(document.getElementById('a').value);
+				var b=Number(document.getElementById('b').value);
+				var disp=document.getElementById('display');
+					var c=a-b;
+					disp.innerHTML=c;
+				}
+				function mul(){
+					var a=Number(document.getElementById('a').value);
+				var b=Number(document.getElementById('b').value);
+				var disp=document.getElementById('display');
+					var c=a*b;
+					disp.innerHTML=c;
+				}
+				function div(){
+					var a=Number(document.getElementById('a').value);
+				var b=Number(document.getElementById('b').value);
+				var disp=document.getElementById('display');
+					var c=a/b;
+					disp.innerHTML=c;
+				}
+				function clr(){
+			document.getElementById('a').value="";
+			document.getElementById('b').value="";
+			var disp=document.getElementById('display');
+			disp.innerHTML="";
+				}
+				function total(){
+					var a=Number(document.getElementById('a').value);
+				var b=Number(document.getElementById('b').value);
+				var disp=document.getElementById('display');
+					var total=a+b;
+					disp.innerHTML=c;
+				}
+			
+				 </script>
+		</div>
+		
+				
+				 <footer>
+					 <div class="gt">
+						<div class="container cont">
+							 <div class="row text-center"> 
+						 <div  class="col-sm-4" style="font-family: serif;
+					  font-weight: 400;
+					  font-size: 18px;
+					  line-height: 1.7;">
+						<div class-"footer-cont> 
+						<div class="foot-1 foot ba">
+						<h3 class="foot-title">PROJECTS</h3>
+						<p>Our Mission is to sustain profitable grouth by best quality products and customer experience in market we serve.</p>
+						</div>
+						 </div>
+						 </div>
+						 <div  class="col-sm-4" style="font-family: serif;
+					  font-weight: 400;
+					  font-size: 18px;
+					  line-height: 1.7;">
+						 <div class="ty">
+						<div class="foot-2 foot">
+						<ul class="foot_list">
+					  <h3 class="foot_title">Links</h3>
+					  <li><a href="newpro.html">CALCULATE</a></li>
+					  <li><a href="marksheet.html">MARKSHEET</a></li>
+					  <li><a href="calculation.html">CALCULATION</a></li>
+					  <li><a href="contact.html">CONTACT</a></li>
+					  <li><a href="service.html">SERVICE</a></li>
+				  </ul>
+				  </div>
+				   </div>
+				   </div>
+				   <div  class="col-sm-4" style="font-family: serif;
+					  font-weight: 400;
+					  font-size: 18px;
+					  line-height: 1.7;">
+				   <div class="qq">
+				  <div class="foot-3 foot">
+				  <ul class="contact_list">
+					  <h3 class="foot_title">Contact Information</h3>
+					  <li>KP RAJAN <br>No 3a  Mkp Road, Lakshmipuram,<br> Pelamedu (Po)  <br> Coimbatore -641005 </li>
+					  <li><a href="">+91-9943409310</a></li>
+					  <li><a href="mailto:kpmrajan10@gmail.com">kpmrajan10@gmail.com</a></li>
+					  </ul>
+					   </div>
+					  </div>
+					  </div>
+					  </div>
+					  </div>
+					  </div>
+						</footer>
+						<div class="tin">
+						<p>&copy copyright-2019</p>
+						</div>
+</body>
+</html>

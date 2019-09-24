@@ -1,0 +1,266 @@
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+	body{
+		margin: 0;
+	
+	}
+
+	
+	 h1{
+padding-top:10px;
+color:blue;
+font-size:25px;
+text-align:center;
+margin: 0;
+}
+.s ul{
+	list-style: none;
+}
+.s ul li{
+	display: inline;
+}
+.s ul li a{
+	text-decoration: none;
+	color: aliceblue;
+	}
+.s ul li a:hover{
+	color: red;
+
+}
+.qu{
+	width:50%;
+	background-color:lightpink;
+	height:45%;
+	margin-left: 25%;
+	margin-top: 30px;
+	
+}
+.ta button{
+	color:rgb(238, 86, 30);
+	padding: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin-top: 10px;
+	background-color: blanchedalmond;
+}
+.ta button:hover{
+	color:rgb(188, 223, 31);
+}
+
+
+.ta{
+	width: 60%;
+	height: 60px;
+	margin-left: auto;
+	margin-right: 60px;
+	font-size: 20px;
+	line-height: 25px;
+	font-style: italic;
+	padding-top: 20px;
+	font-weight: 600;
+}
+.ty ul{
+	list-style:none;
+	}
+.ty li a{
+text-decoration:none;
+color: #92ff28;
+}
+.ty li a:hover{
+color:red;
+}
+.ty h3{
+	color: violet;
+} 
+.qq ul{
+	list-style:none;
+	color:chartreuse;
+	}
+.qq li a{
+text-decoration:none;
+color: #92ff28;
+font-family:initial;
+}
+.qq h3{
+	color: crimson;
+}
+.gt{
+	width: :100%;
+	background-color:gray;
+	margin-bottom:5px;
+	margin:0;
+	}
+.ba{
+color:rgb(46, 206, 81);
+}
+.ba h3{
+	color: chartreuse;
+}
+.tin{
+	text-align: center;
+	color: blue;
+	font-weight: 700;
+}
+.pan{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color:red;
+	height:40px;
+	text-indent: 0ex;
+	margin-bottom:0px;
+	line-height: 40px;
+	font-weight: 900;
+	font-size: 35px;
+	background-color: rgb(107, 167, 39);
+	
+	}
+	.di {
+		width: 40px;
+		padding: 10px;
+		padding-bottom: 5px;
+		padding-left: 50px;
+		margin-top:160px;
+		}
+		
+
+  </style>
+</head>
+<body>
+<div class="qu">
+<div class="hq" style="padding:10px;">
+<h1>CALCULATER</h1>
+</div>
+<div class="ta">
+	
+Enter The Value a:
+<input type="number" id="a" placeholder="enter a number">
+<br>
+<br>
+Enter The Value b:
+<input type="number" id="b" placeholder="enter b number">
+<br>
+<br>
+<div class="btn-group">
+<button onclick="add()"button type="button" class="btn btn-primary btn-md">ADD</button>
+<button onclick="sub()"button type="button" class="btn btn-info btn-md">SUB</button>
+<button onclick="mul()"button type="button" class="btn btn-danger btn-md">MUL</button>
+<button onclick="div()"button type="button" class="btn btn-warning btn-md">DIV</button>
+<button onclick="clr()"button type="button" class="btn btn-success btn-md">CLR</button>
+</div>
+</div>
+<script>
+       function add(){
+			var a=Number(document.getElementById('a').value);
+		var b=Number(document.getElementById('b').value);
+		var disp=document.getElementById('display');
+			var  c=a+b;
+			disp.innerHTML=c;
+		}
+		function sub(){
+			var a=Number(document.getElementById('a').value);
+		var b=Number(document.getElementById('b').value);
+		var disp=document.getElementById('display');
+			var c=a-b;
+			disp.innerHTML=c;
+		}
+		function mul(){
+			var a=Number(document.getElementById('a').value);
+		var b=Number(document.getElementById('b').value);
+		var disp=document.getElementById('display');
+			var c=a*b;
+			disp.innerHTML=c;
+		}
+		function div(){
+			var a=Number(document.getElementById('a').value);
+		var b=Number(document.getElementById('b').value);
+		var disp=document.getElementById('display');
+			var c=a/b;
+			disp.innerHTML=c;
+		}
+		function clr(){
+	document.getElementById('a').value="";
+	document.getElementById('b').value="";
+	var disp=document.getElementById('display');
+	disp.innerHTML="";
+		}
+		function total(){
+			var a=Number(document.getElementById('a').value);
+		var b=Number(document.getElementById('b').value);
+		var disp=document.getElementById('display');
+			var total=a+b;
+			disp.innerHTML=c;
+		}
+	
+		 </script>
+</div>
+
+		 <div class="pan">
+			 <p id="display"</p>
+			 
+		</div>
+	
+		 <footer>
+			 <div class="gt">
+				<div class="container cont">
+					 <div class="row text-center"> 
+				 <div  class="col-sm-4" style="font-family: serif;
+			  font-weight: 400;
+			  font-size: 18px;
+			  line-height: 1.7;">
+				<div class-"footer-cont> 
+				<div class="foot-1 foot ba">
+				<h3 class="foot-title">PROJECTS</h3>
+				<p>Our Mission is to sustain profitable grouth by best quality products and customer experience in market we serve.</p>
+				</div>
+				 </div>
+				 </div>
+				 <div  class="col-sm-4" style="font-family: serif;
+			  font-weight: 400;
+			  font-size: 18px;
+			  line-height: 1.7;">
+				 <div class="ty">
+				<div class="foot-2 foot">
+				<ul class="foot_list">
+			  <h3 class="foot_title">Links</h3>
+			  <li><a href="calculate.html">CALCULATER</a></li>
+			  <li><a href="marksheet.html">MARKSHEET</a></li>
+			  <li><a href="about.html">ABOUT</a></li>
+			  <li><a href="contact.html">CONTACT</a></li>
+			  <li><a href="service.html">SERVICE</a></li>
+		  </ul>
+		  </div>
+		   </div>
+		   </div>
+		   <div  class="col-sm-4" style="font-family: serif;
+			  font-weight: 400;
+			  font-size: 18px;
+			  line-height: 1.7;">
+		   <div class="qq">
+		  <div class="foot-3 foot">
+		  <ul class="contact_list">
+			  <h3 class="foot_title">Contact Information</h3>
+			  <li>Anand Motor Industrials <br>No 3a  Mkp Road, Lakshmipuram,<br> Pelamedu (Po)  <br> Coimbatore -641005 </li>
+			  <li><a href="">+91-9500904426</a></li>
+			  <li><a href="mailto:anandmotors@gmail.com">anandmotors@gmail.com</a></li>
+			  </ul>
+			   </div>
+			  </div>
+			  </div>
+			  </div>
+			  </div>
+			  </div>
+				</footer>
+				<div class="tin">
+				<p>&copy copyright-2019</p>
+				</div>
+</body>
+</html>

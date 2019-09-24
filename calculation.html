@@ -1,0 +1,881 @@
+<html>
+    <head>
+        
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+            <style>
+            body{
+            margin: 0;
+        }
+   
+        .hi{
+width:100%;
+height:40px;
+background-color:lightblue;
+display:flex;
+}
+.ji {
+width:35%;
+}
+.ji h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 15px;
+    color: red;
+    font-family: auto;
+    padding-top: 10px;
+    margin: 0;
+}
+.ap ul{
+	list-style:none;
+	
+    padding:5px;
+    padding-top:12px;
+    margin: 0;
+    
+	
+}
+.ap a{
+    color: #337ab7;
+
+}
+.ap ul li{
+	display:inline;
+	margin-left:20px;
+	margin-right:20px;
+	padding:5px;
+	padding-top: 10px;
+	font-size:18px;
+	font-style:normal;
+    font-family: serif;
+	font-weight:700;
+	line-height:15px;
+	text-indent:40px;
+	padding-bottom: 10px;
+	}
+.ap ul li a{
+	text-decoration:none;
+    padding: 5px;
+    border-radius: 10px;
+}
+.ap ul li a:hover{
+	padding: 5px;
+    border-radius: 10px;
+    background-color: blueviolet;
+	}
+            .image{
+                width: 100%;
+                height: 145%;
+               //background-color: aqua;
+            }
+       .par1{
+            width: 100%;
+            display:flex;
+            height: auto;
+           //background-color:yellow;
+
+        }
+        .box{
+            width: 50%;
+            height: 410px;
+            background-color: aliceblue;
+        }
+        .ans{
+            width: 50%;
+            height: 410px;
+//background-color:blue;
+text-align:center;
+
+        }
+        .ans p{
+            color: rgb(125, 3, 240);
+            
+            font-family: serif;
+            font-weight: 600;
+            font-size: 20px;
+            margin-top: 30px;
+            padding-top: 20px;
+        }
+        .ans h2{
+            
+            margin-top: 50px;
+            font-size: 24px;
+            font-family: auto;
+            font-weight: 700;
+        }
+        .hq h1{
+color:black;
+
+font-size:25px;
+text-align:center;
+margin: 0;
+padding-top: 20px;
+font-weight: 700;
+font-family: auto;
+}
+.ta button{
+        border: 2px solid rosybrown;
+	color:black;
+    font-weight: 900;
+	padding: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin-top: 10px;
+    margin: 10px;
+	background-color: blanchedalmond;
+}
+.ta button:hover{
+	color:rgb(188, 223, 31);
+}
+.ta{
+    color:black;
+    
+    text-align: center;
+    padding-top: 20px;
+    font-size: 23px;
+    font-weight: 100;
+    margin-top: 40px;
+}
+.ta input{
+  width: 40%;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: -4px 0;
+  display: inline-block; 
+  border: 1px solid gray;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: crimson;
+
+  }
+  .par2{
+            width: 100 %;
+            display: flex;
+            height: auto;
+           //background-color:yellow;
+
+        }
+        .box2{
+            width: 50%;
+            height: 410px;
+            background-color: aliceblue;
+        }
+        .ans2{
+            width: 50%;
+            height: 410px;
+//background-color:green;
+text-align:center;
+
+        }
+        .ans2 p{
+            color: blueviolet;
+            margin-top:30px;
+            padding-top: 20px;
+            font-family: serif;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .ans2 h2{
+            
+            margin-top: 50px;
+            font-size: 24px;
+            font-family: auto;
+            font-weight: 700;
+
+        }
+  .ran button{
+    border: 2px solid rosybrown;
+	color:black;
+    font-weight: 900;
+	padding: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin-top: 10px;
+	background-color: blanchedalmond;
+    margin: 10px;
+}
+.ran button:hover{
+	color:rgb(188, 223, 31);
+} 
+.lq h1{
+color:black;
+font-size:25px; 
+text-align:center;
+margin: 0;
+padding-top: 20px;
+font-weight: 700;
+font-family: auto;
+}
+.ran{
+    color:black;
+   
+    text-align: center;
+    padding-top: 20px;
+    font-size: 23px;
+    font-weight: 100;
+}
+.ran input{
+  width: 40%;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block; 
+  border: 1px solid black;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: crimson;
+
+  }
+  .par3{
+            width: 100 %;
+            display: flex;
+            height: auto;
+           //background-color:yellow;
+
+        }
+        .box3{
+            width: 50%;
+            height: 410px;
+            background-color: aliceblue;
+        }
+        .ans3{
+            width: 50%;
+            height: 410px;
+//background-color:blue;
+text-align:center;
+
+        }
+        .ans3 p{
+            color: blueviolet;
+            font-family: serif;
+            font-weight: 600;
+            margin-top:30px;
+           padding-top: 20px;
+            font-size: 20px;
+        }
+        .ans3 h2{
+            
+            margin-top: 50px;
+            font-size: 24px;
+            font-family: auto;
+            font-weight: 700;
+
+        }
+        
+  .jaa h1{
+color:black;
+font-size:25px;  
+text-align:center;
+margin: 0;
+padding-top: 20px;
+font-weight: 700;
+font-family: auto;
+}
+.an{
+    color:black;
+   
+    text-align: center;
+    padding-top: 20px;
+    font-size: 23px;
+    font-weight: 100;
+}
+.an input{
+  width: 40%;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block; 
+  border: 1px solid black;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: crimson;
+
+  }
+  .an button{
+    border: 2px solid rosybrown;
+	color:black;
+    font-weight: 900;
+	padding: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin-top: 10px;
+    margin: 10px;
+	background-color: blanchedalmond;
+}
+.an button:hover{
+	color:rgb(183, 202, 98);
+}  
+.par4{
+            width: 100 %;
+            display:flex;
+            height: auto;
+           //background-color:yellow;
+
+        }
+        .box4{
+            width: 50%;
+            height: 410px;
+            background-color: aliceblue;
+        }
+        .ans4{
+            width: 50%;
+            height: 410px;
+//background-color:crimson;
+text-align:center;
+ }
+ .ans4 p{
+            color: blueviolet;
+            margin-top:30px;
+           padding-top: 20px;
+            font-size: 20px;
+            font-family: serif;
+            font-weight: 600;
+        }
+        .ans4 h2{
+            
+            margin-top: 50px;
+            font-size: 24px;
+            font-family: auto;
+            font-weight: 700;
+        }
+ .ret h1{
+color:black;
+font-size:25px;  
+text-align:center;
+margin: 0;
+padding-top: 20px;
+font-weight: 700;
+font-family: auto;
+}
+.nam{
+    color:black;
+   
+    text-align: center;
+    padding-top: 20px;
+    font-size: 23px;
+    font-weight: 100;
+}
+.nam input{
+  width: 40%;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block; 
+  border: 1px solid black;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: crimson;
+ }
+ .nam button{
+    border: 2px solid rosybrown;
+	color:black;
+	padding: 40px;
+    font-weight: 900;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin-top: 10px;
+    margin: 10px;
+	background-color: blanchedalmond;
+}
+.nam button:hover{
+	color:rgb(188, 223, 31);
+}
+.image{
+   // background-color: darkmagenta;
+   // opacity: 0.8;
+}
+
+.ty ul{
+	list-style:none;
+	}
+.ty li a{
+text-decoration:none;
+color: #92ff28;
+}
+.ty li a:hover{
+color:red;
+}
+.ty h3{
+	color: violet;
+} 
+.qq ul{
+	list-style:none;
+	color:chartreuse;
+	}
+.qq li a{
+text-decoration:none;
+color: #92ff28;
+font-family:initial;
+}
+.qq h3{
+	color: crimson;
+}
+.gt{
+	width: :100%;
+	background-color:gray;
+	margin-:25px;
+    margin-top:52%;
+}
+.gt h3{
+    color: chartreuse;
+}	
+.gt p{
+    color:#1eda46;
+}	
+	
+.back1{
+    width:100%;
+
+    height: 150px;
+    //margin-left: auto;
+    //margin-right: auto;
+    background-color:#e6e6e6;
+}
+.back2{
+    width:100%;
+
+    height: 220px;
+    //margin-left: auto;
+    //margin-right: auto;
+    background-color:#e6e6e6;
+}
+.back3{
+    width:100%;
+
+    height: 150px;
+    //margin-left: auto;
+    //margin-right: auto;
+    background-color:#e6e6e6;
+}
+.back4{
+    width:100%;
+
+    height: 150px;
+    //margin-left: auto;
+    //margin-right: auto;
+    background-color:#e6e6e6;
+}
+.hq{
+	position: relative;
+}
+.hq::before{
+	content: "";
+	width:65%;
+	position: absolute;
+	height: 5px;
+	background-color:pink;
+
+	transform: scale(0);
+	transform-origin: left;
+	transition: transform 3s ease;
+	margin-top: 45px;
+	margin-left:125px;
+}
+.hq:hover::before{
+	transform: scale(1);
+	transform-origin: left;
+}
+.gt{
+	position: relative;
+}
+.gt::before{
+	content: "";
+	width: 10%;
+	position: absolute;
+	height: 5px;
+	background-color:red;
+
+	transform: scale(0);
+	transform-origin: left;
+	transition: transform 3s ease;
+	margin-top: 45px;
+	margin-left:220px;
+	margin-right: 15px;
+}
+.gt:hover::before{
+	transform: scale(1);
+	transform-origin: left;
+}
+.ty{
+	position: relative;
+}
+.ty::before{
+	content: "";
+	width: 18%;
+	position: absolute;
+	height: 5px;
+	background-color:blue;
+
+	transform: scale(0);
+	transform-origin: left;
+	transition: transform 3s ease;
+	margin-top: 25px;
+	margin-left:-10px;
+}
+.ty:hover::before{
+	transform: scale(1);
+	transform-origin: left;
+}
+.qq{
+	position: relative;
+}
+.qq::before{
+	content: "";
+	width: 55%;
+	position: absolute;
+	height: 5px;
+	background-color:rgb(30, 218, 70);
+
+	transform: scale(0);
+	transform-origin: left;
+	transition: transform 3s ease;
+	margin-top: 25px;
+	margin-left:-75px;
+}
+.qq:hover::before{
+	transform: scale(1);
+	transform-origin: left;
+}
+.lq{
+	position: relative;
+}
+.lq::before{
+	content: "";
+	width:62%;
+	position: absolute;
+	height: 5px;
+	background-color:pink;
+
+	transform: scale(0);
+	transform-origin: left;
+	transition: transform 3s ease;
+	margin-top: 45px;
+	margin-left:136px;
+}
+.lq:hover::before{
+	transform: scale(1);
+	transform-origin: left;
+}
+.jaa{
+	position: relative;
+}
+.jaa::before{
+	content: "";
+	width:58%;
+	position: absolute;
+	height: 5px;
+	background-color:pink;
+
+	transform: scale(0);
+	transform-origin: left;
+	transition: transform 3s ease;
+	margin-top: 45px;
+	margin-left:145px;
+}
+.jaa:hover::before{
+	transform: scale(1);
+	transform-origin: left;
+}
+.ret{
+	position: relative;
+}
+.ret::before{
+	content: "";
+	width:52%;
+	position: absolute;
+	height: 5px;
+	background-color:pink;
+
+	transform: scale(0);
+	transform-origin: left;
+	transition: transform 3s ease;
+	margin-top: 45px;
+	margin-left:160px;
+}
+.ret:hover::before{
+	transform: scale(1);
+	transform-origin: left;
+} 
+        </style>
+        </head>
+        <body>
+                <div class="hi">
+                        <div class="ji">
+                        <h2>PROJECT</h2>
+                        </div>
+                        <div class="ap">
+                        <ul>
+                            <li><a href="newpro.html">CALCULATE</a></li>
+                            <li><a href="marksheet.html">MARKSHEET</a></li>
+                            <li><a href="calculation.html">CALCULATION</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                            <li><a href="service.html">SERVICE</a></li>
+                        </ul>
+                        </div>
+                        </div>
+         <div class="image">
+             <div class="par1">
+             <div class="box">
+                    <div class="hq">
+                            <h1>AREA & VOLUME OF RECTANGLE</h1>
+                            </div>
+                            <div class="ta">
+                                    Enter The length:
+                                   <input type="number" id="leng" placeholder="enter a number">    
+                                      <br>
+                                       <br>
+                                       Enter The breadth:
+                                       <input type="number" id="bread" placeholder="enter a number">
+                                       <br>
+                                       <br>
+                                       Enter The height:
+                                       <input type="number" id="high" placeholder="enter a number">
+                                       <br>
+                                       <br>
+                                       <div class="btn-group">
+                                           <button onclick="area1()"button type="button"  class="btn btn-primary btn-md">Area & calculate</button>
+                                           <button onclick="clr1()"button type="button" class="btn btn-info btn-md">Clear</button>
+                                           </div>
+                                   <br>
+                                   <br>    
+                                   </div>
+            </div>
+            <div class="ans">
+                <h2>AREA & VOLUME OF RECTANGLE</h2>
+                <div class="back1">
+                    <p id="area1"></p>
+                    <p id="vol1"></p>
+                </div>
+            </div>
+            </div>
+            <div class="par2">
+                    <div class="box2">
+                           <div class="lq">
+                                   <h1>AREA & VOLUME OF CYLINDER</h1>
+                                   </div>
+                                   <div class="ran">
+                                        Enter The diameter:
+                                        <input type="number" id="dia" placeholder="enter a number">    
+                                           <br>
+                                            <br>
+                                            Enter The depth:
+                                            <input type="number" id="dept" placeholder="enter a number">
+                                            <br>
+                                            <br>
+                                            <div class="btn-group">
+                                                <button onclick="area2()"button type="button" class="btn btn-danger btn-md">Area & calculate</button>
+                                                <button onclick="clr2()"button type="button" class="btn btn-secondary btn-md">Clear</button>
+                                                  </div>
+                                          <br>
+                                          <br>    
+                                          </div>
+                   </div>
+                   <div class="ans2">
+                       <h2>AREA & VOLUME OF CYLINDER</h2>
+                       <div class="back2">
+                            <p id="rad"></p>
+                           <p id="area2"></p>
+                           <p id="vol2"></p>
+                           </div>
+                   </div>
+                   </div>   
+                   <div class="par3">
+                        <div class="box3">
+                                <div class="jaa">
+                                        <h1>AREA & VOLUME OF SQUARE</h1>
+                                        </div>
+                                    <div class="an">
+                                        Enter The side:
+                                       <input type="number" id="side1" placeholder="enter a number">    
+                                          <br>
+                                           <br>
+                                           Enter The height:
+                                           <input type="number" id="height1" placeholder="enter a number">
+                                           <br>
+                                           <br>
+                                           <div class="btn-group">
+                                               <button onclick="area3()"button type="button" class="btn btn-info btn-md">Area & calculate</button>
+                                               <button onclick="clr3()"button type="button" class="btn btn-danger btn-md">Clear</button>
+                                                      </div>
+                                              <br>
+                                              <br>    
+                                              </div>
+                       </div>
+                       <div class="ans3">
+                           <h2>AREA & VOLUME OF SQUARE</h2>
+                               <div class="back3"> 
+                               <p id="area3"></p>
+                               <p id="vol3"></p>
+                               </div>
+                       </div>
+                       </div>  
+                       <div class="par4">
+                            <div class="box4">
+                                    <div class="ret">
+                                            <h1>AREA & VOLUME OF CUBE</h1>
+                                            </div>
+                                        <div class="nam">
+                                            Enter The side:
+                                           <input type="number" id="diam1" placeholder="enter a number">    
+                                              <br>
+                                               <br>
+                                               Enter The breadth:
+                                                   <input type="number" id="height2" placeholder="enter a number">
+                                                <br>
+                                                <br>
+                                               <div class="btn-group">
+                                                   <button onclick="area4()"button type="button" class="btn btn-primary btn-md">Area & calculate</button>
+                                                   <button onclick="clr4()"button type="button" class="btn btn-info btn-md">Clear</button>
+                                                <br>
+                                                <br>
+                        
+                                                </div>                                
+                                                  </div>
+                            </div> 
+                           <div class="ans4">
+                               <h2>AREA & VOLUME OF CUBE</h2>
+                                    <div class="back4">
+                                   <p id="area4"></p>
+                                   <p id="vol4"></p>
+                                   </div>
+                           </div>
+                           </div>
+                       
+                </div>
+             
+             <script>
+                 function area1(){
+                    var len=Number(document.getElementById("leng").value);
+                    var bre=Number(document.getElementById("bread").value);
+                    var heig=Number(document.getElementById("high").value);
+                     var area1=len*bre;
+                     var vol1=area1*heig;
+                    document.getElementById("area1").innerHTML="AREA OF RECTANGLE="+area1;
+                    document.getElementById("vol1").innerHTML="VOLUME OF RECTANGLE ="+vol1;
+                    
+                    
+                    }
+                    function clr1(){
+                         document.getElementById("leng").value="";
+                          document.getElementById("bread").value="";
+                             document.getElementById("high").value="";
+                                document.getElementById("area1").innerHTML="";
+                                   document.getElementById("vol1").innerHTML="";
+                    }
+
+ function area2(){
+var dia=Number(document.getElementById("dia").value);
+var dep=Number(document.getElementById("dept").value);
+var radius=dia/2;
+var area2=radius*radius*3.14;
+var vol2=area2*dep;
+document.getElementById("rad").innerHTML="RADIUS OF CYLINDER=" +radius;
+document.getElementById("area2").innerHTML="AREA OF CYLINDER="+ area2;
+document.getElementById("vol2").innerHTML="VOLUME OF CYLINDER=" +vol2;
+}
+function clr2(){
+     document.getElementById("dia").value="";
+      document.getElementById("dept").value="";
+         document.getElementById("rad").innerHTML="";
+            document.getElementById("area2").innerHTML="";
+               document.getElementById("vol2").innerHTML="";
+}
+
+function area3(){
+var sid=Number(document.getElementById("side1").value);
+var heig1=Number(document.getElementById("height1").value);
+var area3=sid*sid;
+var vol3=area3*heig1;
+document.getElementById("area3").innerHTML="AREA OF SQUARE="+ area3;
+document.getElementById("vol3").innerHTML="VOLUME OF SQUARE =" +vol3;
+}
+function clr3(){
+     document.getElementById("side1").value="";
+         document.getElementById("height1").value="";
+            document.getElementById("area3").innerHTML="";
+               document.getElementById("vol3").innerHTML="";
+}
+
+function area4(){
+var diam=Number(document.getElementById("diam1").value);
+var heig2=Number(document.getElementById("height2").value);
+var radi=diam/2;
+var area4=3.14*radi*radi;
+var vol4=area4*(heig2/3);
+document.getElementById("area4").innerHTML="AREA OF SQUARE="+area4;
+document.getElementById("vol4").innerHTML="VOLUME OF SQUARE ="+vol4;
+}
+function clr4(){
+     document.getElementById("diam1").value="";
+         document.getElementById("height2").value="";
+            document.getElementById("area4").innerHTML="";
+               document.getElementById("vol4").innerHTML="";
+}
+
+                    </script>
+                     <footer>
+                            <div class="gt">
+                               <div class="container cont">
+                                    <div class="row text-center"> 
+                                <div  class="col-sm-4" style="font-family: serif;
+                             font-weight: 400;
+                             font-size: 18px;
+                             line-height: 1.7;">
+                               <div class-"footer-cont> 
+                               <div class="foot-1 foot ba">
+                               <h3 class="foot-title">PROJECTS</h3>
+                               <p>Our Mission is to sustain profitable grouth by best quality products and customer experience in market we serve.</p>
+                               </div>
+                                </div>
+                                </div>
+                                <div  class="col-sm-4" style="font-family: serif;
+                             font-weight: 400;
+                             font-size: 18px;
+                             line-height: 1.7;">
+                                <div class="ty">
+                               <div class="foot-2 foot">
+                               <ul class="foot_list">
+                             <h3 class="foot_title" style="color:violet;">Links</h3>
+                             <li><a href="newpro.html">CALCULATE</a></li>
+                             <li><a href="marksheet.html">MARKSHEET</a></li>
+                             <li><a href="calculation.html">CALCULATION</a></li>
+                             <li><a href="contact.html">CONTACT</a></li>
+                             <li><a href="service.html">SERVICE</a></li>
+                         </ul>
+                         </div>
+                          </div>
+                          </div>
+                          <div  class="col-sm-4" style="font-family: serif;
+                             font-weight: 400;
+                             font-size: 18px;
+                             line-height: 1.7;">
+                          <div class="qq">
+                         <div class="foot-3 foot">
+                         <ul class="contact_list">
+                             <h3 class="foot_title" style="color: red;">Contact Information</h3>
+                             <li>KP RAJAN <br>No 3a  Mkp Road, Lakshmipuram,<br> Pelamedu (Po)  <br> Coimbatore -641005 </li>
+                             <li><a href="">+91-9943409310</a></li>
+                             <li><a href="mailto:kpmrajan10@gmail.com">kpmrajan10@gmail.com</a></li>
+                             </ul>
+                              </div>
+                             </div>
+                             </div>
+                             </div>
+                             </div>
+                             </div>
+                               </footer>
+                               <div class="tin">
+                               <p>&copy copyright-2019</p>
+                               </div>
+        </body>
+    
+</html>
